@@ -1,13 +1,29 @@
+body{
+	background: rgba(176,224,230,0.1)
+
+}
+
+h1{
+	font-family: 'Russo One', sans-serif;
+	font-size: 52px;
+	background: rgba( 229, 214, 243, 0.3)
+}
+
 .header{
 	text-align: center;
 	font-size: 32px;
 }
 svg{
 	opacity:0.5;
+	width: 150px;
+	height: 150px;
 }
 svg:hover{
-		opacity:1;
+	opacity:1;
+	width: 300px;
+	height: 300px;
 	}
+
 #imageWrapper{
 	margin: 10px;
  	background: rgba( 229, 214, 243, 0.3)
